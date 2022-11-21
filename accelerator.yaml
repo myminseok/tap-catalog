@@ -1,3 +1,4 @@
+# https://github.com/vmware-tanzu/application-accelerator-samples/edit/main/demo-input-types/accelerator.yaml
 accelerator:
   displayName: Demo Input Types
   description: "Accelerator with options for each inputType"
