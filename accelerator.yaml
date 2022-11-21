@@ -1,6 +1,6 @@
 # https://github.com/vmware-tanzu/application-accelerator-samples/edit/main/demo-input-types/accelerator.yaml
 accelerator:
-  displayName: Demo Input Types
+  displayName: Demo Input Types_local3
   description: "Accelerator with options for each inputType"
   iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-tanzu-light.png
   tags: ["demo", "options"]
