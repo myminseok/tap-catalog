@@ -12,4 +12,14 @@ spec:
   parent: default-org
   children: []
 
-
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: myminseok@naver.com
+spec:
+  profile:
+    displayName: User
+    email: myminseok@naver.com
+    picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
+  memberOf: [default-team]
