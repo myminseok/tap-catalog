@@ -13,7 +13,7 @@ metadata:
     backstage.tanzu.vmware.com/group.default.default-team: 'catalog.entities.read,catalog.entities.update'
     backstage.tanzu.vmware.com/group.default.viewer: 'catalog.entities.read'
     backstage.tanzu.vmware.com/group.default.editor: 'catalog.entities.read,catalog.entities.update'
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-sensors-rabbit'
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/part-of=spring-sensors-rabbit'
   links:
     - url: https://spring-sensors-consumer-web-apps.tapb-cunning-calf.tapsandbox.com/
       title: spring-sensors-consumer-web
