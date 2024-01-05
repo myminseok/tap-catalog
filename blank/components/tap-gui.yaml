@@ -6,11 +6,11 @@ metadata:
   tags:
     - v1alpha1
   annotations:
-    backstage.tanzu.vmware.com/user.default.guest: 'catalog.entity.read,catalog.entity.update,catalog.entity.delete'
+    backstage.tanzu.vmware.com/user.default.guest: 'catalog.entities.read,catalog.entities.update'
     'backstage.io/kubernetes-label-selector': 'app=backstage'
     'backstage.io/techdocs-ref': dir:.
 spec:
   type: service
-  lifecycle: production2
+  lifecycle: production
   owner: default-team
   system: tap-gui
